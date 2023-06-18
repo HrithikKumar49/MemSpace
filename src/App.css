@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
 .App-logo {
@@ -35,4 +37,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+input {
+  border: 1px solid blue;
+  display: inline-block;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  vertical-align: inherit;
+  text-align: center;
+  color: inherit;
+  font: inherit;
+  background: none;
+}
+
+input[disabled] {
+  border: 0;
+}
+
+a { cursor: pointer; text-decoration: none; }
+
+.Note-List {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
 }
